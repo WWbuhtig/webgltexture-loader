@@ -3,7 +3,7 @@ import {
   globalRegistry,
   WebGLTextureLoaderAsyncHashCache
 } from "webgltexture-loader";
-import { NativeModulesProxy } from "@unimodules/core";
+import { NativeModulesProxy } from "expo-modules-core";
 
 const neverEnding = new Promise(() => {});
 
